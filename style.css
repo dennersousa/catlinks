@@ -1,0 +1,141 @@
+/* Reset and global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+/* Container styles */
+.container {
+    width: 450px;
+    height: 700px;
+    margin: 1rem auto;
+    border: 1px solid rgba(255, 255, 255, 0.401);
+    border-radius: 1rem;
+    background: linear-gradient(to bottom, rgb(255, 255, 255), rgb(127, 236, 255), rgba(0, 238, 255, 0.819));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Navbar styles */
+.navbar {
+    display: flex;
+    padding: .2rem .2rem;
+    cursor: pointer;
+    border-radius: 50px;
+    margin-top: -3rem;
+    margin-bottom: 1rem;
+    transition-duration: .2s;
+}
+
+.navbar:hover {
+    transform: scale(0.97);
+}
+
+/* Profile styles */
+.profile {
+    margin-top: 1rem;
+    width: 8rem;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+/* Menu styles */
+.menu {
+    filter: invert(1);
+    width: 2rem;
+    margin-right: 1rem;
+}
+
+/* Main styles */
+.main {
+    /* Adicione estilos conforme necessário */
+    font-size: medium;
+    align-items: center; /* Esta propriedade é usada para contêineres flexíveis, certifique-se de que está dentro de um contêiner flex */
+    text-align: center; /* Adicionado para alinhar o texto no centro */
+    line-height: 1; /* Adicionado para ajustar o espaçamento entre as linhas, se necessário */
+}
+
+/* Items styles */
+.items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    padding: .5rem 2rem;
+    width: 320px;
+    margin: 1rem;
+    border-radius: 9px;
+    background-color: rgb(255, 255, 255);
+    transition-duration: .2s;
+    cursor: pointer;
+    box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.319);
+}
+
+.items:hover {
+    transform: scale(0.96);
+    background-color: rgba(255, 255, 255, 0.986);
+}
+
+/* Language and Framework styles */
+.language,
+.framework {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 4px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+/* Icon styles */
+.ico-lang {
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+/* User styles */
+.user {
+    color: rgb(0, 0, 0);
+    margin-bottom: .2rem;
+    font-family: 'Minecraft', sans-serif;
+    text-align: center; 
+}
+
+/* Name styles */
+.name {
+    margin-bottom: .2rem;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 30px;
+}
+
+/* Sub styles */
+.sub {
+    font-family: monospace;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(0, 0, 0, 0.473);
+    margin-bottom: 2rem;
+}

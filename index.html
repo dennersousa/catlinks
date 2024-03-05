@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcus Carvalho</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-4" rel="stylesheet">
+                
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img src="./logos/perfilpic.png" alt="" class="profile">
+        </div>
+        <h3 class="name">Marcus Carvalho</h3>
+        <p class="sub">Desenvolvedor Backend</p>
+        
+        <div class="language">
+            <img src="./icones/golang.png" alt="" class="ico-lang">
+            <img src="./icones/kotlin.png" alt="" class="ico-lang">
+            <img src="./icones/java.png" alt="" class="ico-lang">
+            <img src="./icones/python.png" alt="" class="ico-lang">
+            <img src="./icones/typescript.png" alt="" class="ico-lang">
+        </div>
+        <div class="framework">
+            <img src="./icones/nestjs.png" alt="" class="ico-lang">
+            <img src="./icones/springboot.png" alt="" class="ico-lang">
+        </div>
+
+        <div class="main">
+            <div class="items" onclick="redirectTo('https://www.linkedin.com/in/marcuscarvalhodev/')">
+                <img src="./logos/linkedin.png" alt="" class="icon">
+                <p class="user">LinkedIn</p>
+            </div>
+            <div class="items" onclick="redirectTo('https://github.com/gatinhodev')">
+                <img src="./logos/github.png" alt="" class="icon">
+                <p class="user">GitHub</p>
+            </div>
+            <div class="items" onclick="redirectTo('https://www.instagram.com/marcus_devbackend/')">
+                <img src="./logos/instagram.png" alt="" class="icon">
+                <p class="user">Instagram</p>
+            </div>
+            <div class="items" onclick="redirectTo('mailto:dev.marcus@outlook.com')">
+                <img src="./logos/outlook.png" alt="" class="icon">
+                <p class="user">E-mail</p>
+            </div>
+            <div class="items" onclick="redirectTo('https://wa.me/5584991596141')">
+                <img src="./logos/whatsapp.png" alt="" class="icon">
+                <p class="user">WhatsApp</p>
+            </div>
+        </div>
+    </div>
+    <script>
+        function redirectTo(url) {
+            window.open(url, '_blank');
+        }
+    </script>
+</body>
+</html>
