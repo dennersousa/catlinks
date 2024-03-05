@@ -2,7 +2,7 @@
 
 ## Visão Geral
 
-Este é um simples clone do Linketree desenvolvido em HTML e CSS para o Marcus Carvalho, um talentoso Desenvolvedor Backend. O projeto exibe os links das redes sociais e informações de contato de Marcus de maneira organizada e limpa.
+Este é um simples clone do Linktree desenvolvido em HTML e CSS por mim, Marcus Carvalho, também conhecido como Gato, um Desenvolvedor Backend. O projeto exibe de forma organizada e limpa os links das minhas redes sociais e informações de contato.
 
 ## Como Utilizar
 
